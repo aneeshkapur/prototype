@@ -31,6 +31,8 @@ public class NumberToStringConverter {
 		System.out.println("54,321,683: " + ntsc.convertNumberToString(54321683));
 		System.out.println("954,321,683: " + ntsc.convertNumberToString(954321683));
 		System.out.println("1,000,000,030: " + ntsc.convertNumberToString(1000000030));
+	        // Maximum integer value possible
+		System.out.println("2,147,483,647: " + ntsc.convertNumberToString(2147483647));
 	}
 	
 	private void init() {
